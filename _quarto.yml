@@ -8,8 +8,8 @@ project:
     - assets/epub-reader.js
 
 book:
-  title: "Quarto Template"
-  author: "Bakti Siregar, M.Sc."
+  title: "Tugas Statistika"
+  author: "Khalifah Khairunnisa Arianto "
   date: today
   description: "Deskripsi singkat tentang buku"
   cover-image: images/Cover.png
