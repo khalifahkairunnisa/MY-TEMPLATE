@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Khalifah Khairunnisa Arianto">
-<meta name="dcterms.date" content="2026-11-25">
+<meta name="dcterms.date" content="2026-11-28">
 <meta name="description" content="Deskripsi Singkat">
 
 <title>Tugas Statistika</title>
@@ -29,27 +29,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -153,13 +133,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/bab-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Praktikum 09: Sampling Distribution dan Estimasi</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Populasi Simulasi</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapters/bab-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Praktikum: Konsep dan Uji Hipotesis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Distribusi Sampling</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -220,7 +200,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Diterbitkan</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">25 November 2026</p>
+      <p class="date">28 November 2026</p>
     </div>
   </div>
   
@@ -234,15 +214,11 @@ div.csl-indent {
 
 
 <section id="kata-pengantar" class="level1 unnumbered">
-<h1 class="unnumbered">Kata Pengantar</h1><p><img src="images/Cover.png" title="Tugas Statistika" class="quarto-cover-image nolightbox img-fluid"></p>
-<p>Dengan mengucap syukur kepada Tuhan Yang Maha Esa, saya sangat senang dapat mempersembahkan eBook <strong>“Quarto Template”</strong> kepada para pembaca dan pengguna. eBook ini disusun sebagai panduan praktis untuk membantu mahasiswa, dosen, peneliti, serta praktisi dalam memanfaatkan Quarto sebagai salah satu perangkat untuk menyusun, mengelola, dan menerbitkan dokumen secara profesional.</p>
-<p>Quarto merupakan perangkat <em>open-source scientific and technical publishing</em> yang memungkinkan pengguna mengintegrasikan teks, kode pemrograman, hasil analisis, visualisasi data, serta berbagai elemen pendukung lainnya ke dalam satu dokumen. Dengan Quarto, proses penulisan dan publikasi dapat dilakukan secara lebih terstruktur, reproducible, dan efisien dalam berbagai format keluaran, seperti HTML, PDF, Microsoft Word, serta format publikasi lainnya.</p>
-<p>Contoh sitasi: tuliskan <code>[@xie2015]</code> untuk merujuk entri <code>xie2015</code> di <code>references/book.bib</code>. Pada hasil render, sitasinya tampil seperti ini <span class="citation" data-cites="xie2015"><a href="references/referensi.html#ref-xie2015" role="doc-biblioref">[1]</a></span>.</p>
-<p>Melalui eBook ini, pembaca akan diperkenalkan pada penggunaan template Quarto, mulai dari pengenalan struktur proyek, pengaturan konfigurasi, penulisan dokumen menggunakan Markdown, integrasi kode pemrograman, pengelolaan referensi, hingga proses <em>rendering</em> menjadi dokumen yang siap digunakan dan dipublikasikan.</p>
-<p>Materi disusun secara bertahap agar mudah dipahami dan dipraktikkan, termasuk oleh pengguna yang baru pertama kali mengenal Quarto. Template dan contoh yang disajikan diharapkan dapat menjadi referensi dalam mengembangkan berbagai kebutuhan dokumentasi akademik, laporan penelitian, modul pembelajaran, buku elektronik, maupun publikasi berbasis data.</p>
-<p>Saya berharap eBook ini dapat memberikan manfaat nyata dalam mendukung peningkatan literasi digital, produktivitas akademik, dan penerapan praktik penulisan ilmiah yang modern. Lebih dari sekadar panduan teknis, eBook ini diharapkan dapat mendorong pembaca untuk mengeksplorasi berbagai kemampuan Quarto dan mengembangkan template sesuai dengan kebutuhan masing-masing.</p>
-<p>Saya menyadari bahwa eBook ini masih memiliki ruang untuk penyempurnaan. Oleh karena itu, kritik, saran, dan masukan dari para pembaca sangat diharapkan sebagai bahan evaluasi untuk pengembangan edisi berikutnya.</p>
-<p>Akhir kata, semoga eBook ini dapat menjadi referensi yang bermanfaat dan memberikan kontribusi positif bagi dunia pendidikan, penelitian, dan pengembangan ilmu pengetahuan.</p>
+<h1 class="unnumbered">Kata Pengantar</h1><p><img src="images/Cover eBook.png" title="Tugas Statistika" class="quarto-cover-image nolightbox img-fluid"></p>
+<p>Puji syukur penulis panjatkan kepada Tuhan Yang Maha Esa atas rahmat dan karunia-Nya, sehingga tulisan “Dasar-Dasar Sains Data” ini dapat disusun. Tulisan ini dibuat sebagai catatan belajar sekaligus panduan sederhana bagi siapa saja yang baru mengenal dunia sains data.</p>
+<p>Sains data memadukan statistika, pemrograman, dan pemahaman terhadap data untuk menghasilkan informasi yang bermanfaat. Bagi pemula, bidang ini sering terasa luas dan membingungkan di awal. Karena itu, penulis berusaha merangkum materi dengan bahasa yang sederhana dan urutan yang jelas agar mudah dipahami dan dipraktikkan.</p>
+<p>Penulis saat ini sedang menempuh semester 1 di program studi Sains Data. Isi tulisan ini berangkat dari proses belajar yang masih berjalan, sehingga penulis menyadari masih ada kekurangan dalam isi maupun penyajiannya. Kritik dan saran dari pembaca sangat penulis harapkan untuk perbaikan ke depannya.</p>
+<p>Penulis mengucapkan terima kasih kepada dosen, teman-teman, dan keluarga yang telah mendukung proses belajar ini. Semoga tulisan ini bermanfaat bagi pembaca dan menjadi langkah awal yang baik untuk terus belajar dan berkarya di bidang sains data.</p>
 <p><strong>Khalifah Khairunnisa Arianto</strong><br>
 Penulis</p>
 <section id="penulis" class="level2">
@@ -263,19 +239,12 @@ Penulis</p>
 <li><strong>Rekan-rekan dan Kolaborator</strong> yang telah memberikan masukan, saran, dan kritik yang konstruktif.</li>
 <li>Institusi dan Organisasi, Khususnya <strong><a href="https://itsb.ac.id/">ITSB</a></strong> yang telah menyediakan sumber daya dan fasilitas yang diperlukan selama proses penelitian dan penulisan.</li>
 </ul>
-<p>Saya berharap Template eBook ini dapat menjadi referensi yang bermanfaat dan memberikan inspirasi serta pengetahuan baru bagi pembaca. Semoga Ebook ini dapat memenuhi ekspektasi dan kebutuhan para pembaca dan semoga ilmu yang disampaikan dapat bermanfaat bagi semua.</p>
 </section>
 <section id="masukan-saran" class="level2">
 <h2 class="anchored" data-anchor-id="masukan-saran">Masukan &amp; Saran</h2>
-<p>Semua masukan dan tanggapan Anda sangat berarti bagi kami untuk memperbaiki Ebook Quarto Template ini kedepannya. Bagi para pembaca/pengguna yang ingin menyampaikan masukan dan tanggapan, dipersilahkan melalui kontak dibawah ini!</p>
-<p><strong>Email:</strong> kenmakozumee2007@gmail.com</p>
+<p>Semua masukan dan tanggapan Anda sangat berarti bagi saya. <strong>Email:</strong> kenmakozumee2007@gmail.com</p>
 
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-xie2015" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">Y. Xie, <em><a href="http://yihui.name/knitr/">Dynamic Documents with <span>R</span> and knitr</a></em>, 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC, 2015.</div>
-</div>
-</div>
 </section>
 </section>
 
@@ -810,8 +779,8 @@ document.querySelectorAll('a[href^="http://"], a[href^="https://"]').forEach((li
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./chapters/bab-1.html" class="pagination-link" aria-label="Praktikum 09: Sampling Distribution dan Estimasi">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Praktikum 09: Sampling Distribution dan Estimasi</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./chapters/bab-1.html" class="pagination-link" aria-label="Populasi Simulasi">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Populasi Simulasi</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
